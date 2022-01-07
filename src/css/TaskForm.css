@@ -1,0 +1,26 @@
+.textInput{
+    height: 5vh;
+    width: 60vw;
+    border: #3a7bd5 solid 4px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.submit_btn{
+    position: absolute;
+    z-index: 1;
+    right: 19.5vw;
+    height: 6vh;
+    width: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600s;
+    border: #3a7bd5 solid 2px;
+    background-color: #3a7bd5;
+    border-radius: 15px;
+
+}
+
+.submit_btn:active{
+    background-color: #2970d3;
+}

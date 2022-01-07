@@ -1,0 +1,14 @@
+.ListItem{
+    margin:10px 85px;
+    padding: 7px 0;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.ListItem div{
+    display: inline-block;
+    color: #1da6e9;
+    font-size: 5vw;
+    margin-left: 10px;
+    text-align: left;
+}

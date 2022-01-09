@@ -1,8 +1,18 @@
 import ListItem from "./ListItem";
 
-function List() {
+function List(props) {
+    const {list} = props
     return (
-        <ListItem class="ListItem" text='example'/>
+        <ul>
+            {list.map(t =>
+                <ListItem
+                key={t.id}
+                {...t}
+                refreshView={props.refreshView}
+                class="ListItem" />
+
+            )}
+        </ul>
     )
 }
 

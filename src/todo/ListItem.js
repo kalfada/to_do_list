@@ -1,10 +1,10 @@
 import '../css/ListItem.css'
 
 
-function ListItem({text}) {
+function ListItem(props) {
     return(
         <div className="ListItem">
-            <div>{text}</div>
+            <div>{props.text}</div>
             <input type="checkbox" name="" id="" />
             <button>X</button>
         </div>
